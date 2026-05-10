@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "python-native": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "python",
+        "%APPDATA%\\..\\..\\.codex\\plugins\\python-native\\scripts\\python_native_mcp.py"
+      ],
+      "env": {
+        "PYTHONUTF8": "1"
+      },
+      "startup_timeout_ms": 20000,
+      "note": "Local Python semantic tools for Codex. Starts pyright-langserver --stdio per project root and shells out to pyright/python with compact summarized output."
+    }
+  }
+}

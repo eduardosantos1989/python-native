@@ -1,0 +1,45 @@
+{
+  "name": "python-native",
+  "version": "0.1.0",
+  "description": "Semantic Python project tools for Codex using pyright and pyright-langserver.",
+  "author": {
+    "name": "Local Codex",
+    "email": "local@example.invalid",
+    "url": "https://github.com/microsoft/pyright"
+  },
+  "homepage": "https://microsoft.github.io/pyright/",
+  "repository": "https://github.com/microsoft/pyright",
+  "license": "MIT",
+  "keywords": [
+    "python",
+    "pyright",
+    "lsp",
+    "type-checking"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Python Native",
+    "shortDescription": "Use pyright for semantic Python work",
+    "longDescription": "Adds token-efficient Python code intelligence for Codex by exposing pyright-langserver LSP hover, definitions, references, symbols, diagnostics, and code actions, plus pyright JSON diagnostics and Python compile checks.",
+    "developerName": "Local Codex",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.python.org/",
+    "privacyPolicyURL": "https://www.python.org/privacy/",
+    "termsOfServiceURL": "https://www.python.org/about/legal/",
+    "defaultPrompt": [
+      "Use pyright to inspect this Python code.",
+      "Run pyright diagnostics on this project.",
+      "Find Python definitions and references semantically."
+    ],
+    "brandColor": "#3776AB",
+    "composerIcon": "./assets/python.png",
+    "logo": "./assets/python.png",
+    "screenshots": []
+  }
+}
